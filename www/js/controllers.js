@@ -1,8 +1,8 @@
 /**
  * Created by Sandeep on 11/09/14.
  */
-angular.module('todoApp.controllers',[]).controller('TodoListController',['$scope','Todo',function($scope,Todo){
-
+angular.module('todoApp.controllers',[])
+.controller('TodoListController',['$scope','Todo',function($scope,Todo){
     Todo.getAll().success(function(data){
         $scope.items=data.results;
     });

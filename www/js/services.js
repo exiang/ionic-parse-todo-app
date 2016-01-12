@@ -1,5 +1,5 @@
 /**
- * Created by Sandeep on 11/09/14.
+ * Created 11/09/14.
  */
 angular.module('todoApp.services',[]).factory('Todo',['$http','PARSE_CREDENTIALS',function($http,PARSE_CREDENTIALS){
     return {
@@ -48,6 +48,8 @@ angular.module('todoApp.services',[]).factory('Todo',['$http','PARSE_CREDENTIALS
         }
     }
 }]).value('PARSE_CREDENTIALS',{
-    APP_ID: 'xhTpJiNedJ7mmDj3LTTBUePqSVegcJHzEbh70Y0Q',
-    REST_API_KEY:'XCfQDPODgNB1HqmaCQgKLPWGxQ0lCUxqffzzURJY'
+   // APP_ID: 'xhTpJiNedJ7mmDj3LTTBUePqSVegcJHzEbh70Y0Q',
+    //REST_API_KEY:'XCfQDPODgNB1HqmaCQgKLPWGxQ0lCUxqffzzURJY'
+    APP_ID: 'CehGZQbPKpsVZdO3t4mjuoyHX7ct1O1UPKHef6X3',
+    REST_API_KEY:'KETZMgTIOp1Dawuv2sN6bpz7jT7XD4H4TSBoxBbM'
 });
